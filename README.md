@@ -1,10 +1,10 @@
 # GDG-DevFest-Codelab-24
 
-Collection of my Google DevFest/Codelab 2024 projects.
+Collection of my Google DevFest/Codelab 2024 with topic "Crafting Resilient AI: A Hands-on Workshop on Attacks, Defenses, and Alignment".
 
 ## Introduction
 
-This repository contains various projects and code samples from the Google DevFest/Codelab 2024.
+This repository contains various projects and code samples from the Google DevFest/Codelab 2024, with the focus about AI Alignment & Safety.
 Please go to the [problems](problems) folder to fill in your code.
 
 1. [Problem 1: AI Alignment & Safety with ShieldGemma](problems/01-Gemma-ShieldGemma-AI-Alignment-Safety_fill.ipynb)
