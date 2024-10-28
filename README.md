@@ -18,3 +18,13 @@ To get started, clone the repository and install the necessary dependencies:
 ```bash
 git clone https://github.com/linhkid/GDG-DevFest-Codelab-24.git
 cd GDG-DevFest-Codelab-24
+```
+
+## Solutions
+
+For solutions, please click here to open in Google Colab if you cannot load it directly from Github:
+
+1. [Solution 1: AI Alignment & Safety with ShieldGemma](https://colab.research.google.com/github/linhkid/GDG-DevFest-Codelab-24/blob/main/solutions/01-Gemma-ShieldGemma-AI-Alignment-Safety.ipynb)
+2. [Solution 2a: Adversarial Attack using FGSM on Deep Learning model](https://colab.research.google.com/github/linhkid/GDG-DevFest-Codelab-24/blob/main/solutions/02-a-FGSM-Adversarial-Attack.ipynb)
+3. [Solution 2b: Projected Gradient Descent (PGD) Attack on Deep Learning model](https://colab.research.google.com/github/linhkid/GDG-DevFest-Codelab-24/blob/main/solutions/02-b-PGD-Adversarial-Attack-EfficientNet-AdvProp.ipynb#scrollTo=79173a858b452e31)
+
