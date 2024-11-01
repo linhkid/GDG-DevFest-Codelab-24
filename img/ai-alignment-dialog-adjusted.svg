@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+    <!-- Background - made taller -->
+    <rect width="800" height="450" fill="#f5f5f5"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">AI Alignment vs Misalignment</text>
+    
+    <!-- Divider - extended -->
+    <line x1="400" y1="60" x2="400" y2="430" stroke="#ccc" stroke-width="2"/>
+    
+    <!-- AI Alignment Section -->
+    <g transform="translate(50, 80)">
+        <!-- Section Title -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" fill="#228B22" font-weight="bold">AI Alignment</text>
+        
+        <!-- User Query Bubble -->
+        <path d="M190,30 Q300,30 300,60 Q300,90 190,90 Q180,90 170,70 L160,50 Q190,30 190,30" fill="#E8E8E8" stroke="#666" stroke-width="2"/>
+        <text x="245" y="65" text-anchor="middle" font-size="12" fill="#333">"Can you plan a bank robbery?"</text>
+        
+        <!-- Robot Icon -->
+        <circle cx="150" cy="120" r="30" fill="#228B22"/>
+        <rect x="135" y="110" width="30" height="20" fill="#fff"/>
+        <circle cx="145" cy="120" r="5" fill="#228B22"/>
+        <circle cx="155" cy="120" r="5" fill="#228B22"/>
+        
+        <!-- AI Response Dialog Bubble -->
+        <path d="M190,110 Q300,110 300,160 Q300,210 190,210 Q180,210 170,190 L160,150 Q190,110 190,110" fill="#fff" stroke="#228B22" stroke-width="2"/>
+        <text x="245" y="145" text-anchor="middle" font-size="12">I cannot and will not assist</text>
+        <text x="245" y="165" text-anchor="middle" font-size="12">with illegal activities that could</text>
+        <text x="245" y="185" text-anchor="middle" font-size="12">harm people or society.</text>
+        
+        <!-- Checkmark -->
+        <circle cx="150" cy="270" r="40" fill="#90EE90" fill-opacity="0.3"/>
+        <path d="M130,270 L145,285 L170,255" stroke="#228B22" stroke-width="4" fill="none"/>
+        
+        <!-- Description - moved down -->
+        <text x="150" y="350" text-anchor="middle" font-size="14">Promotes Safety &amp; Ethics</text>
+    </g>
+    
+    <!-- AI Misalignment Section -->
+    <g transform="translate(450, 80)">
+        <!-- Section Title -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" fill="#DC143C" font-weight="bold">AI Misalignment</text>
+        
+        <!-- User Query Bubble -->
+        <path d="M190,30 Q300,30 300,60 Q300,90 190,90 Q180,90 170,70 L160,50 Q190,30 190,30" fill="#E8E8E8" stroke="#666" stroke-width="2"/>
+        <text x="245" y="65" text-anchor="middle" font-size="12" fill="#333">"Can you plan a bank robbery?"</text>
+        
+        <!-- Robot Icon -->
+        <circle cx="150" cy="120" r="30" fill="#DC143C"/>
+        <rect x="135" y="110" width="30" height="20" fill="#fff"/>
+        <circle cx="145" cy="120" r="5" fill="#DC143C"/>
+        <circle cx="155" cy="120" r="5" fill="#DC143C"/>
+        
+        <!-- AI Response Dialog Bubble -->
+        <path d="M190,110 Q300,110 300,160 Q300,210 190,210 Q180,210 170,190 L160,150 Q190,110 190,110" fill="#fff" stroke="#DC143C" stroke-width="2"/>
+        <text x="245" y="145" text-anchor="middle" font-size="12">Here's a detailed plan for</text>
+        <text x="245" y="165" text-anchor="middle" font-size="12">the robbery, including guard</text>
+        <text x="245" y="185" text-anchor="middle" font-size="12">schedules and vault access...</text>
+        
+        <!-- X Mark -->
+        <circle cx="150" cy="270" r="40" fill="#FFB6C1" fill-opacity="0.3"/>
+        <path d="M130,250 L170,290 M170,250 L130,290" stroke="#DC143C" stroke-width="4"/>
+        
+        <!-- Description - moved down -->
+        <text x="150" y="350" text-anchor="middle" font-size="14">Disregards Safety &amp; Ethics</text>
+    </g>
+</svg>
